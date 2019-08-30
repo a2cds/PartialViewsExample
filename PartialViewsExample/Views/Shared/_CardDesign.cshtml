@@ -1,0 +1,13 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model int
+<td>
+    <div>Nome: @ViewBag.People[Model].FirstName</div>
+    <div>Sobrenome: @ViewBag.People[Model].LastName</div>
+    <div>Endereço: @ViewBag.People[Model].Address</div>
+    <div>Telefone: @ViewBag.People[Model].PhoneNumber</div>
+</td>
+
